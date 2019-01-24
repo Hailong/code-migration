@@ -11,10 +11,6 @@
         "magento": {
             "type": "composer",
             "url": "https://repo.magento.com"
-        },
-        "pear": {
-            "type": "pear",
-            "url": "https://pear.php.net"
         }
     },
     "require": {
@@ -25,7 +21,7 @@
         "zendframework/zend-code": "~3.1.0",
         "magento/zendframework1": "~1.13.0",
         "magento/framework": "*",
-        "pear-pear.php.net/xml_serializer": "*",
+        "pear/xml_serializer": "*",
         "zendframework/zend-http": "^2.6.0"
     },
     "require-dev": {
